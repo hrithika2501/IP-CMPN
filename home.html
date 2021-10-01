@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Fitness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="topnav">
+      <a href="#contact">Contact</a>
+      <a href="#Book">Book</a>
+      <a href="#home" class="active">Home</a>
+      
+    </div>
+  </nav>
+  <header>
+    <div class="jk">
+      <h1>Fit and Fine</h1>
+      <h3>Run like there's no tomorrow</h3>
+    </div>
+  </header>
+
+  <section>
+    <div class="destinations">
+      <center>
+        <h2>Our Features</h2>
+      </center>
+      <div class="location">
+        <div class="image1">
+          <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="wt">
+        </div>
+        <div class="image2">
+          <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="">
+        </div>
+        <div class="image3">
+          <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+            alt="">
+        </div>
+        <div class="image1">
+          <img
+            src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=726&q=80"
+            alt="">
+        </div>
+        <div class="image2">
+          <img src="https://images.unsplash.com/photo-1518459031867-a89b944bffe4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=841&q=80" alt="">
+        </div>
+        <div class="image3">
+          <img src="https://images.unsplash.com/photo-1601568870191-8c417f7e0077?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="book">
+      <center>
+        <hr>
+        <h2>Book Slot</h2>
+        <form action="">
+          <label for="name"> Name:</label><br>
+          <input type="text" id="name" name="name" required><br>
+          <label for="phone number"> Phone number:</label><br>
+          <input type="text" id="phone number" name="phone number" minlength="10" maxlength="10" required><br>
+          <label for="gender"> Gender:</label>
+          <input type="radio" name="gender" id="male">
+          <label for="male"> Male</label>
+          <input type="radio" name="gender" id="female">
+          <label for="female"> Female</label>
+          <input type="radio" name="gender" id="other">
+          <label for="other"> Other</label> <br>
+          <label for="email"> Email:</label><br>
+          <input type="text" id="email" name="email" required><br>
+          <label for="address"> Address:</label><br>
+          <input type="text" id="address" name="address" required><br>
+          <label for="packages">Choose a package:</label>
+          <select name="packages" id="packages">
+            <option selected disabled value="">Package</option>
+            <option value="Silver">Quaterly</option>
+            <option value="Gold">Monthly</option>
+            <option value="Platinum">Annually</option>
+            
+          </select>
+          
+          <br>
+          <input id="submitbutton" type="submit" value="Submit">
+        </form>
+      </center>
+    </div>
+  </section>
+
+  <section>
+    <div class="contact">
+      <center>
+        <hr>
+        <h2>Contact</h2>
+        <form action="">
+          <label for="name"> Name:</label><br>
+          <input type="text" id="name" name="name" required><br>
+          <label for="phone number"> Phone number:</label><br>
+          <input type="text" id="phone number" name="phone number" minlength="2" maxlength="15" required><br>
+          <label for="email"> Email:</label><br>
+          <input type="text" id="email" name="email" required><br>
+          <label for="address"> Address:</label><br>
+          <input type="text" id="address" name="address" required><br>
+          <label for="message"> Message:</label><br>
+          <textarea id="message" minlength="0" maxlength="250" rows="10" cols="40" required></textarea><br>
+          <input id="submitbutton" type="submit" value="Submit">
+        </form>
+      </center>
+    </div>
+  </section>
+</body>
+
+</html>
